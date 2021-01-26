@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+
+.container-1 , .container-2 , .container-3 , .container-4 , .container-5{
+    background-color: rgb(213, 224, 238);
+    border: 1px solid rgb(95, 108, 150);
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    box-shadow: 0 0 20px rgb(72, 72, 92);
+}
+
+.flex-box-container-1 , .flex-box-container-2  , .flex-box-container-4 ,.flex-blackjack-row-1 , .flex-blackjack-row-2 , .flex-blackjack-row-3{
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    border: 1px solid rgb(95, 108, 150);
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-blackjack-row-1 , .flex-blackjack-row-2{
+ background: url('https://img.freepik.com/free-photo/dark-blue-texture-cement-wall-background_28629-1627.jpg?size=626&ext=jpg&ga=GA1.2.279147769.1610236800');
+ color: rgb(255, 255, 255);
+
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid  rgb(95, 108, 150);
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid  rgb(95, 108, 150);
+    padding: 10px;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid  rgb(95, 108, 150);
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+table, th , td {
+    padding: 5px;
+    border:  5px solid  rgb(95, 108, 150);
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.flex-box-container-2 img {
+    box-shadow: 0px 10px 30px rgb(0, 0, 0,7);
+    margin: 10px;
+}
+
+.flex-box-container-3 img {
+    justify-content: center;
+    margin: 10px 50px 10px 50px;
+}
+
+.flex-box-container-3 img:hover {
+ box-shadow: 0 0 30px rgb(23, 133, 177);
+}
+    
+    
