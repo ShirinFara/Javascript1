@@ -388,21 +388,4 @@ document.querySelector('#blackjack-result').style.color = messageColor;
  
  
  
-  /* let blackjackgame={
-    'you':{'scoreSpan':'#your-blackjack-result','div':'your-box','score':0},
-    'dealer':{'scoreSpan':'#dealer-blackjack-result','div':'dealer-box','score':0},
-  };
-const YOU=blackjackgame['you']
-const DEALER=blackjackgame['dealer']
-
-const hitsound=new Audio('Sounds/swish.mp3');
-
-document.querySelector("#blackjack-hit-button").addEventListener("click",blackjackhit);
-
-function blackjackhit() {
-    var cardimage= document.createElement('img');
-    cardimage.src='Images/4.png';
-    document.querySelector(YOU['div']).appendChild(cardimage);
-     hitsound.play();
-}*/
-
+ 
